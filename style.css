@@ -1,0 +1,28 @@
+body {
+    width: 300px;
+    height: 300px;
+    background-color: #bbadad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', Arial, sans-serif; 
+    margin: 0;
+}
+
+#jokeElement {
+    font-size: 24px;
+    color: #333;
+    border-radius: 8px;
+   
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#jokeElement::after {
+    content: '\1F602';
+    font-size: 28px;
+    margin-left: 10px;
+    color: #e67e22;
+}
